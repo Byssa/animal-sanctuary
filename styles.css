@@ -12,8 +12,6 @@ h1  {
   font-weight: bold;
 }
 
-
-
 /* Center the Banner image */
 .custom_banner {
   display: block;
@@ -26,10 +24,17 @@ h1  {
 
 .navbar-custom {
   background-color: #451b16;
+  font-weight: bold;
 }
 
 .nav-link {
   color: #f2f2f2;
+}
+
+.nav-link:active, .nav-link:hover {
+  background-color: #ddd;
+  color: #451b16;
+  font-weight: 900;
 }
 
 /* Override bootstrap navbar color */
