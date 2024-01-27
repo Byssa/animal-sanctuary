@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Animal Sanctuary</title>
+<meta name=description content="The Animal Sanctuary - Animal Shelter based near Matakana is an established chicken, duck, farm animal and native bird rescue working for the health and welfare of animals across New Zealand">
+<!-- Load external font-aweseom CSS styles -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Load external Bootstrap CSS styles -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<!-- Top Banner -->
+<a href="index.html"><img id="banner" src="images/sanctuary_banner.png" alt="Animal Sanctuary Banner" class="custom_banner"/></a>
+
+<!-- Navigation -->
+<div id="CustomNav" class="custom_nav">
+
+  <a href="index.html" class="active">HOME</a>
+  <a href="about.html">ABOUT</a>
+  <a href="animals.html">ANIMALS</a>
+  <a href="adopt.html">ADOPT</a>
+  <a href="shop.html">SHOP</a>
+  <a href="donate.html">DONATE/HELP</a>
+  <a href="FAQ.html">FAQ</a>
+  <a href="contact.html">CONTACT</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+<!-- Main test -->
+
+
+<div class="wrapper">
+  <header class="header">Header</header>
+  <article class="main">
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+  </article>
+  <aside class="aside aside-1">Aside 1</aside>
+  <aside class="aside aside-2">Aside 2</aside>
+  <footer class="footer">Footer</footer>
+</div>
+
+
+<!-- Main -->
+
+<div class="container-fluid mt-3" >
+  <div class="row custom_main">
+    <div class="col-sm-9 custom_main">
+
+    <h1 class="d-flex justify-content-center">WELCOME TO THE ANIMAL SANCTUARY</h1>
+    <div class="container custom_carousel">
+    <h2 class="d-flex justify-content-center">CLICK HERE for info on Ex-Battery Hen adoptions.</h2>
+    </div>
+    <h4>View this video below to learn about what we do:<h4>
+    <div class="container_iframe">
+    <iframe class="responsive_iframe" src="https://player.vimeo.com/video/447269165?color&amp;autopause=0&amp;loop=1&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t="></iframe>
+    </div>
+
+    </div>
+    <div class="col-sm-3">
+    <p>hello</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Load external Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+</body>
+
+
+<script>
+function myFunction() {
+    debugger;
+    var x = document.getElementById("CustomNav");
+    if (x.className === "custom_nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "custom_nav";
+  }
+}
+
+</script>
+</html>

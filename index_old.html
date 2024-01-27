@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<title>The Animal Sanctuary</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name=description content="The Animal Sanctuary - Animal Shelter based near Matakana New Zealand is an established chicken, duck, farm animal and native bird rescue working for the health and welfare of animals across New Zealand">
+<!-- Load external CSS styles -->
+<link rel="stylesheet" href="styles_old.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<!-- Top Banner -->
+<img src="images/sanctuary_banner.png" alt="Animal Sanctuary Banner" class="banner">
+
+<!-- Navigation -->
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">HOME</a>
+  <a href="#about">ABOUT</a>
+  <a href="#animals">ANIMALS</a>
+  <a href="#adopt">ADOPT</a>
+  <a href="#shop">SHOP</a>
+  <a href="#donate">DONATE/HELP</a>
+  <a href="#FAQ">FAQ</a>
+  <a href="#contact">CONTACT</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<!-- Main -->
+<h1>Welcome to The Animal Sanctuary</h1>
+<p>This is a paragraph.</p>
+
+</body>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</html>
