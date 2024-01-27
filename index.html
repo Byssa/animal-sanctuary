@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Animal Sanctuary</title>
 <meta name=description content="The Animal Sanctuary - Animal Shelter based near Matakana is an established chicken, duck, farm animal and native bird rescue working for the health and welfare of animals across New Zealand">
-<!-- Load external font-aweseom CSS styles -->
+<!-- Load external font-awesome CSS styles -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- Load external Bootstrap CSS styles -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -39,36 +39,41 @@
 
 <div class="wrapper">
   <header class="header">Header</header>
-  <article class="main">
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+  <article class="main" style="z-index: -1; position: relative;">
+      <div class="container_iframe" >
+      <iframe class="responsive_iframe" src="https://player.vimeo.com/video/447269165?color&amp;autopause=0&amp;loop=1&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t="></iframe>
+      </div>
+    
   </article>
-  <aside class="aside aside-1">Aside 1</aside>
-  <aside class="aside aside-2">Aside 2</aside>
+  <aside class="aside aside-1">Left</aside>
+ 
   <footer class="footer">Footer</footer>
 </div>
 
 
 <!-- Main -->
 
-<div class="container-fluid mt-3" >
-  <div class="row custom_main">
-    <div class="col-sm-9 custom_main">
-
+<div class="container-fluid mt-3">
+  <div class="row custom_main"  style="z-index: -99; position: relative;">
     <h1 class="d-flex justify-content-center">WELCOME TO THE ANIMAL SANCTUARY</h1>
-    <div class="container custom_carousel">
-    <h2 class="d-flex justify-content-center">CLICK HERE NOW for info on Ex-Battery Hen adoptions.</h2>
-    </div>
+    
+    <div class="col-md-6 order-lg-1 order-md-1 order-sm-2">
+
+   
+    
     <h4>View this video below to learn about what we do:<h4>
-    <div class="container_iframe">
-    <iframe class="responsive_iframe" src="https://player.vimeo.com/video/447269165?color&amp;autopause=0&amp;loop=1&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t="></iframe>
+    <div class="container_iframe"  >
+    <iframe  class="responsive_iframe" src="https://player.vimeo.com/video/447269165?color&amp;autopause=0&amp;loop=1&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t="></iframe>
     </div>
 
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-6 order-lg-2 order-md-2 order-sm-1">
     <p>hello</p>
     </div>
   </div>
 </div>
+
+
 
 
 <!-- Load external Bootstrap JS -->
@@ -79,7 +84,6 @@
 
 <script>
 function myFunction() {
-    debugger;
     var x = document.getElementById("CustomNav");
     if (x.className === "custom_nav") {
     x.className += " responsive";

@@ -104,14 +104,6 @@ h4  {
   padding-top: 10px;
 }
 
-/* Styling for the Carousel container */
-.custom_carousel  {
-  background-color: #236894;
-  color: #fff;
-  border-radius: 15px;
-  padding: 14px 16px;
-  margin-bottom: 15px;
-}
 
 /* Styling for the i-frame Vimeo video */
 .container_iframe {
@@ -174,6 +166,6 @@ h4  {
   .main    { flex: 3 0px; }
   .aside-1 { order: 1; }
   .main    { order: 2; }
-  .aside-2 { order: 3; }
+ 
   .footer  { order: 4; }
 }
