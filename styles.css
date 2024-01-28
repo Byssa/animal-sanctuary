@@ -1,8 +1,9 @@
+/* Base Size */
 html {
   font-size: 15px;
 }
 
-/* Style the Body */
+/* Body styles */
 body  {
   font-family: Source Sans Pro;
   margin: 0;
@@ -15,13 +16,18 @@ h1  {
   font-weight: bold;
 }
 
+/* Banner styles */
+.custom-banner-wrapper  {
+  background-color: #451b16;
+}
+
 /* Center the Banner image */
 .custom-banner {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   width: 80%;
 }
 
@@ -29,6 +35,7 @@ h1  {
 .navbar-custom {
   background-color: #451b16;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .nav-link {
@@ -64,20 +71,7 @@ h1  {
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* Styling for the Section Titles */
-.custom-section-title  {
-  background-color: #f2f2f2;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-/* Styling for the i-frame Vimeo video */
+/* i-frame Vimeo video */
 .container-iframe {
   position: relative;
   overflow: hidden;
@@ -97,7 +91,14 @@ h1  {
   height: 100%;
 }
 
-/* Styling for the Facebook Follow Us in Footer */
+/* Footer styles */ 
+.custom-footer  {
+  background-color: #451b16;
+  color:#ddd;
+  padding-top: 1rem;
+}
+
+/* Facebook Follow Us */
 .custom-facebook {
   display: block;
   margin-left: auto;
