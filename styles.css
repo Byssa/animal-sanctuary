@@ -7,8 +7,8 @@ html {
 body  {
   font-family: Source Sans Pro;
   margin: 0;
-  background-color: #d1d3db;
-  color: #363a46;
+  background-color: #ddd;
+  color: #451b16;
 }
 
 h1  {
@@ -18,11 +18,7 @@ h1  {
 
 /* Banner styles */
 .custom-banner-wrapper  {
-  background-image: linear-gradient(rgba(54,58,70,0), rgba(54,58,70,1));
-}
-
-.custom-banner-wrappe {
-  background-color: #363a46;
+  background-color: #451b16;
 }
 
 /* Center the Banner image */
@@ -37,7 +33,7 @@ h1  {
 
 /* Navbar styles */
 .navbar-custom {
-  background-color: #363a46;
+  background-color: #451b16;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -97,7 +93,7 @@ h1  {
 
 /* Footer styles */ 
 .custom-footer  {
-  background-color: #363a46;
+  background-color: #451b16;
   color:#ddd;
   padding-top: 1rem;
 }
