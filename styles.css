@@ -27,6 +27,10 @@ h1  {
 
 /** Cards **/
 
+.animal-cards {
+  gap: 3rem;
+}
+
 .card {
   width: 100%;
   max-width: 300px;
