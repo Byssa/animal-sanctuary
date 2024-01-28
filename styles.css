@@ -5,10 +5,15 @@ html {
 
 /* Body styles */
 body  {
-  font-family: Source Sans Pro;
   margin: 0;
   background-color: #ddd;
   color: #451b16;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Lexend', sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1  {
