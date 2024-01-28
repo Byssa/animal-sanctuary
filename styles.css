@@ -1,14 +1,18 @@
+html {
+  font-size: 15px;
+}
+
 /* Style the Body */
 body  {
   font-family: Source Sans Pro;
   margin: 0;
   background-color: #ddd;
   color: #451b16;
-  padding: 2em;
+  padding: 2rem;
 }
 
 h1  {
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -17,8 +21,8 @@ h1  {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   width: 80%;
 }
 
@@ -53,8 +57,8 @@ h1  {
 .custom-toggler .navbar-toggler-icon {
   position: relative;
   display: inline-block;
-  width: 0.5em;
-  height: 0.5em;
+  width: 0.5rem;
+  height: 0.5rem;
   vertical-align: middle;
   content: "";
   background-image: url(
@@ -64,13 +68,13 @@ h1  {
 /* Styling for the Section Titles */
 .custom-section-title  {
   background-color: #f2f2f2;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   border-top: 1px solid;
   border-bottom: 1px solid;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -99,7 +103,7 @@ h1  {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   width: 20%;
 }
