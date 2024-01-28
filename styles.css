@@ -55,6 +55,7 @@ h4  {
   position: relative;
 }
 
+/* Restyle hamburger */
 .custom-toggler .navbar-toggler-icon {
   position: relative;
   display: inline-block;
@@ -75,7 +76,6 @@ h4  {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-
 }
 
 /* navigation links styling */
