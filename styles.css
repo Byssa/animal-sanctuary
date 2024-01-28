@@ -48,6 +48,7 @@ h1  {
   position: relative;
 }
 
+/* Restyle hamburger */
 .custom-toggler .navbar-toggler-icon {
   position: relative;
   display: inline-block;
@@ -69,7 +70,6 @@ h1  {
   position: sticky;
   top: 0;
   z-index: 99;
-
 }
 
 /* navigation links styling */
