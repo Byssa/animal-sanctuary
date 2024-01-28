@@ -23,12 +23,8 @@ h1  {
 
 /* Center the Banner image */
 .custom-banner {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  max-height: 20rem;
 }
 
 /* Navbar styles */
