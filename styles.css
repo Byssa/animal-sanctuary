@@ -22,6 +22,7 @@ h1  {
   width: 80%;
 }
 
+/* Navbar styles */
 .navbar-custom {
   background-color: #451b16;
   font-weight: bold;
@@ -61,7 +62,7 @@ h1  {
 }
 
 /* Styling for the i-frame Vimeo video */
-.container_iframe {
+.container-iframe {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -70,7 +71,7 @@ h1  {
 }
 
 /* Responsive style to fit the iframe in the container div with full height and width */
-.responsive_iframe {
+.responsive-iframe {
   position: absolute;
   top: 0;
   left: 0;
