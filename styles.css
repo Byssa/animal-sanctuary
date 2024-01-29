@@ -130,8 +130,11 @@ h1  {
 /* Main content area background image */
 .custom-background  {
   background-image: url('images/clouds.jpg');
+  height: 500px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 /* Main content area background image for Home */
@@ -140,6 +143,7 @@ h1  {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 
 /* i-frame Vimeo video */
 .container-iframe {
