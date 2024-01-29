@@ -1,21 +1,3 @@
-img.custom-about-img {
-  float: left;
-  margin: 0.5rem;
-}
-
-h1.custom-about-h1 {
-  color: green;
-        text-align: center;
-}
-
-p.custom-about-text {
-  text-align: justify;
-}
-
-
-
-
-
 /* Base Size */
 html {
   font-size: 15px;
@@ -24,6 +6,7 @@ html {
 /* Body styles */
 body {
   margin: 0;
+  background-color:#ddd;
   color: #451b16;
   font-size: 1.2rem;
   font-weight: 600;
@@ -40,12 +23,8 @@ h1 {
 
 /* Banner styles */
 .custom-banner-wrapper {
-  background-color: #451b16;
+  background-color: #ddd;
 }
-
-
-
-
 
 /* Center the Banner image */
 .custom-banner {
@@ -61,7 +40,7 @@ h1 {
 }
 
 .nav-link {
-  color: #f2f2f2;
+  color: #ddd;
 }
 
 .nav-link:active,
@@ -185,10 +164,26 @@ h1 {
   border-color: #f2f2f2;
 }
 
+/* About Us styles */
+img.custom-about-img {
+  float: left;
+  margin-right: 2rem;
+}
+
+h1.custom-about-h1 {
+  color: green;
+        text-align: center;
+}
+
+p.custom-about-text {
+  text-align: justify;
+}
+
+
 /* Footer styles */
 .custom-footer {
-  background-color: #451b16;
-  color: #ddd;
+  background-color: #ddd;
+  color: #451b16;
   padding-top: 1rem;
 }
 
