@@ -70,11 +70,19 @@ h1  {
 }
 
 /* Main content area background image */
-.background-custom  {
+.custom-background  {
+  background-image: url('images/clouds.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Main content area background image for Home */
+.custom-background-home  {
   background-image: url('images/clouds.jpg');
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 /* i-frame Vimeo video */
 .container-iframe {
   position: relative;
