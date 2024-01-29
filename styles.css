@@ -6,10 +6,9 @@ html {
 /* Body styles */
 body  {
   margin: 0;
-  background-color: #ddd;
   color: #451b16;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 600;
   font-family: 'Inter', sans-serif;
   font-family: 'Lexend', sans-serif;
   font-family: 'Lexend Deca', sans-serif;
@@ -70,6 +69,13 @@ h1  {
 "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+/* Main content area styles */
+.custom-main  {
+  
+  background-image: url('images/clouds.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 /* i-frame Vimeo video */
 .container-iframe {
   position: relative;
