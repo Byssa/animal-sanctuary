@@ -1,3 +1,21 @@
+img.custom-about-img {
+  float: left;
+  margin: 0.5rem;
+}
+
+h1.custom-about-h1 {
+  color: green;
+        text-align: center;
+}
+
+p.custom-about-text {
+  text-align: justify;
+}
+
+
+
+
+
 /* Base Size */
 html {
   font-size: 15px;
@@ -23,6 +41,93 @@ h1 {
 /* Banner styles */
 .custom-banner-wrapper {
   background-color: #451b16;
+}
+
+
+
+
+
+/* Center the Banner image */
+.custom-banner {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Navbar styles */
+.navbar-custom {
+  background-color: #451b16;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #f2f2f2;
+}
+
+.nav-link:active,
+.nav-link:hover {
+  color: green;
+}
+
+/* Override bootstrap navbar color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #f2f2f2;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #f2f2f2;
+  margin: 0.5rem;
+  position: relative;
+}
+
+/* Restyle hamburger */
+.custom-toggler .navbar-toggler-icon {
+  position: relative;
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  vertical-align: middle;
+  content: "";
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Main content area background image for Home */
+.custom-background {
+  background-image: url('images/clouds.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Main content area background image */
+.custom-background-TEST {
+  background-image: url('images/clouds.jpg');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* i-frame Vimeo video */
+.container-iframe {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+
+}
+
+/* Responsive style to fit the iframe in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /** Cards **/
@@ -78,93 +183,6 @@ h1 {
   color: #451b16;
   font-weight: bold;
   border-color: #f2f2f2;
-}
-
-
-
-
-/* Center the Banner image */
-.custom-banner {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-/* Navbar styles */
-.navbar-custom {
-  background-color: #451b16;
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-.nav-link {
-  color: #f2f2f2;
-}
-
-.nav-link:active,
-.nav-link:hover {
-  color: green;
-}
-
-/* Override bootstrap navbar color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-  color: #f2f2f2;
-}
-
-.custom-toggler.navbar-toggler {
-  border-color: #f2f2f2;
-  margin: 0.5rem;
-  position: relative;
-}
-
-/* Restyle hamburger */
-.custom-toggler .navbar-toggler-icon {
-  position: relative;
-  display: inline-block;
-  width: 0.5rem;
-  height: 0.5rem;
-  vertical-align: middle;
-  content: "";
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-/* Main content area background image */
-.custom-background {
-  background-image: url('images/clouds.jpg');
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-/* Main content area background image for Home */
-.custom-background-home {
-  background-image: url('images/clouds.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-
-/* i-frame Vimeo video */
-.container-iframe {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%;
-  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-
-}
-
-/* Responsive style to fit the iframe in the container div with full height and width */
-.responsive-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
 }
 
 /* Footer styles */
