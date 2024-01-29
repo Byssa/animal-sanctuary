@@ -4,7 +4,7 @@ html {
 }
 
 /* Body styles */
-body  {
+body {
   margin: 0;
   color: #451b16;
   font-size: 1.2rem;
@@ -15,13 +15,13 @@ body  {
   font-family: 'Poppins', sans-serif;
 }
 
-h1  {
+h1 {
   font-size: 2rem;
   font-weight: bold;
 }
 
 /* Banner styles */
-.custom-banner-wrapper  {
+.custom-banner-wrapper {
   background-color: #451b16;
 }
 
@@ -48,7 +48,7 @@ h1  {
 
 
 .card-body {
-  position:absolute;
+  position: absolute;
   bottom: 0;
   padding: 1.5rem;
   background-color: #451b16;
@@ -100,12 +100,14 @@ h1  {
   color: #f2f2f2;
 }
 
-.nav-link:active, .nav-link:hover {
+.nav-link:active,
+.nav-link:hover {
   color: green;
 }
 
 /* Override bootstrap navbar color */
-.navbar-custom .navbar-brand,.navbar-custom .navbar-text {
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
   color: #f2f2f2;
 }
 
@@ -123,12 +125,11 @@ h1  {
   height: 0.5rem;
   vertical-align: middle;
   content: "";
-  background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 /* Main content area background image */
-.custom-background  {
+.custom-background {
   background-image: url('images/clouds.jpg');
   height: 500px;
   background-position: center;
@@ -138,7 +139,7 @@ h1  {
 }
 
 /* Main content area background image for Home */
-.custom-background-home  {
+.custom-background-home {
   background-image: url('images/clouds.jpg');
   background-repeat: no-repeat;
   background-size: contain;
@@ -150,7 +151,8 @@ h1  {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 
 }
 
@@ -165,10 +167,10 @@ h1  {
   height: 100%;
 }
 
-/* Footer styles */ 
-.custom-footer  {
+/* Footer styles */
+.custom-footer {
   background-color: #451b16;
-  color:#ddd;
+  color: #ddd;
   padding-top: 1rem;
 }
 
