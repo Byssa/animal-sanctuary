@@ -87,15 +87,17 @@ img.custom-wrap-img {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* Main content area background image for Home - TEMPORARY */
+/* Main content area background image */
 .custom-background {
   background-image: url('images/clouds.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
-/* Main content area background image */
-.custom-background-about  {
+/* TEST background for main content area background image */
+.custom-background-TEST  {
   background-image: url('images/clouds.jpg');
   background-repeat: no-repeat;
   background-size:contain;
@@ -105,6 +107,8 @@ img.custom-wrap-img {
 /* Content boxes styles */
 .custom-content  {
   background-color: #fbfbfb;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 /* i-frame Vimeo video */
