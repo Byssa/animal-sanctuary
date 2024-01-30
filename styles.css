@@ -24,12 +24,6 @@ p.custom-wrap-text {
   text-align: justify;
 }
 
-/* small text */
-p.custom-subscript  {
-  font-size: 0.9rem;
-}
-
-/* Image styles */
 /* floats image to left, allows text wrap */
 img.custom-wrap-img {
   float: left;
@@ -38,7 +32,8 @@ img.custom-wrap-img {
 
 /* Banner styles */
 .custom-banner-wrapper {
-  background-color: #d0bba0;
+  background-color: #fbfbfb;
+  text-align: center;
 }
 
 /* Center the Banner image */
@@ -92,7 +87,7 @@ img.custom-wrap-img {
   background-image: url('images/clouds.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 3rem;
+  padding-top: 2rem;
   padding-bottom: 3rem;
 }
 
@@ -111,6 +106,8 @@ img.custom-wrap-img {
   padding: 1rem;
 }
 
+
+/*HOME styles */
 /* i-frame Vimeo video */
 .container-iframe {
   position: relative;
@@ -184,11 +181,25 @@ img.custom-wrap-img {
   border-color: #fbfbfb;
 }
 
-/* Footer styles */
+/*ABOUT styles */
+/* wraps text around image */
+p.custom-wrap-text {
+  text-align: justify;
+}
+
+/* floats image to left, allows text wrap */
+img.custom-wrap-img {
+  float: left;
+  margin-right: 2rem;
+}
+
+/* FOOTER styles */
 .custom-footer {
-  background-color: #d0bba0;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
   color: #451b16;
-  
+  text-align: center;
+  margin-top: 2rem;
 }
 
 /* Facebook Follow Us */
