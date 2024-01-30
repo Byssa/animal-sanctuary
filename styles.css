@@ -19,25 +19,17 @@ h1 {
   font-weight: bold;
   text-align: center;
 }
-/* wraps text around image */
-p.custom-wrap-text {
-  text-align: justify;
-}
 
-/* floats image to left, allows text wrap */
-img.custom-wrap-img {
-  float: left;
-  margin-right: 2rem;
-}
-
-/* Banner styles */
-.custom-banner-wrapper {
+/* HEADER styles */
+.custom-header-wrapper {
   background-color: #fbfbfb;
   text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-/* Center the Banner image */
-.custom-banner {
+/* Center the Header image */
+.custom-header {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
