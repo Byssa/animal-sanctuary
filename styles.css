@@ -24,6 +24,10 @@ p.custom-wrap-text {
   text-align: justify;
 }
 
+/* subtext */
+p.custom-subscript  {
+  font-size: 0.9rem;
+}
 /* Image styles */
 /* floats image to left, allows text wrap */
 img.custom-wrap-img {
@@ -82,28 +86,19 @@ img.custom-wrap-img {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* Main content area background image for Home */
+/* Main content area background image for Home - TEMPORARY */
 .custom-background {
   background-image: url('images/clouds.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+/* Main content area background image */
 .custom-background-about  {
   background-image: url('images/clouds.jpg');
   background-repeat: no-repeat;
   background-size:contain;
   background-position:center;
-}
-
-/* Main content area background image */
-.custom-background-TEST {
-  background-image: url('images/clouds.jpg');
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
 /* i-frame Vimeo video */
@@ -113,7 +108,6 @@ img.custom-wrap-img {
   width: 100%;
   padding-top: 56.25%;
   /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-
 }
 
 /* Responsive style to fit the iframe in the container div with full height and width */
@@ -127,15 +121,14 @@ img.custom-wrap-img {
   height: 100%;
 }
 
-/** Cards **/
+/** Card styles **/
 .animal-cards {
-  gap: 2rem;
+  gap: 6rem;
 }
 
 .animal-card {
   margin: 0;
 }
-
 
 .card {
   width: 100%;
@@ -147,7 +140,6 @@ img.custom-wrap-img {
   width: 100%;
   height: auto;
 }
-
 
 .card-body {
   position: absolute;
