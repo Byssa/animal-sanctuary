@@ -15,11 +15,23 @@ body {
   font-family: 'Lexend Deca', sans-serif;
   font-family: 'Poppins', sans-serif;
 }
-
+/* Text styles */
 h1 {
+  color: green;
   font-size: 2rem;
   font-weight: bold;
-  color: green;
+  text-align: center;
+}
+/* wraps text around image */
+p.custom-wrap-text {
+  text-align: justify;
+}
+
+/* Image styles */
+/* floats image to left, allows text wrap */
+img.custom-wrap-img {
+  float: left;
+  margin-right: 2rem;
 }
 
 /* Banner styles */
@@ -171,24 +183,6 @@ h1 {
   font-weight: bold;
   border-color: #f2f2f2;
 }
-
-/* About Us styles */
-img.custom-about-img {
-  float: left;
-  margin-right: 2rem;
-}
-
-h1.custom-about-h1 {
-  color: green;
-  text-align: center;
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-p.custom-about-text {
-  text-align: justify;
-}
-
 
 /* Footer styles */
 .custom-footer {
