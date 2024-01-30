@@ -22,7 +22,8 @@ h1 {
 
 /* HEADER styles */
 .custom-header-wrapper {
-  background-color: #fbfbfb;
+  background: rgb(251,251,251);
+  background: radial-gradient(circle, rgba(251,251,251,1) 0%, rgba(208,187,160,1) 100%);
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
