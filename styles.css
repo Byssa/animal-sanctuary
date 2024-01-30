@@ -24,10 +24,11 @@ p.custom-wrap-text {
   text-align: justify;
 }
 
-/* subtext */
+/* small text */
 p.custom-subscript  {
   font-size: 0.9rem;
 }
+
 /* Image styles */
 /* floats image to left, allows text wrap */
 img.custom-wrap-img {
@@ -54,7 +55,7 @@ img.custom-wrap-img {
 }
 
 .nav-link {
-  color: #ddd;
+  color: #fbfbfb;
 }
 
 .nav-link:active,
@@ -65,11 +66,11 @@ img.custom-wrap-img {
 /* Override bootstrap navbar color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-  color: #f2f2f2;
+  color: #fbfbfb;
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: #f2f2f2;
+  border-color: #fbfbfb;
   margin: 0.5rem;
   position: relative;
   border: none;
@@ -99,6 +100,11 @@ img.custom-wrap-img {
   background-repeat: no-repeat;
   background-size:contain;
   background-position:center;
+}
+
+/* Content boxes styles */
+.custom-content  {
+  background-color: #fbfbfb;
 }
 
 /* i-frame Vimeo video */
@@ -146,7 +152,7 @@ img.custom-wrap-img {
   bottom: 0;
   padding: 1.5rem;
   background-color: #451b16;
-  color: #f2f2f2;
+  color: #fbfbfb;
   opacity: 0.7;
 }
 
@@ -157,21 +163,21 @@ img.custom-wrap-img {
 
 .card-text {
   font-size: 1rem;
-  color: #f2f2f2;
+  color: #fbfbfb;
 }
 
 .btn-primary {
   background-color: #451b16;
-  color: #f2f2f2;
-  border: 2px solid #f2f2f2;
+  color: #fbfbfb;
+  border: 2px solid #fbfbfb;
 }
 
 .btn-primary:hover,
 .btn-primary:active {
-  background-color: #f2f2f2;
+  background-color: #fbfbfb;
   color: #451b16;
   font-weight: bold;
-  border-color: #f2f2f2;
+  border-color: #fbfbfb;
 }
 
 /* Footer styles */
