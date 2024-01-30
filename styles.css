@@ -15,6 +15,7 @@ body {
 /* Text styles */
 h1 {
   color: green;
+  text-shadow: 1px 1px 2px #451b16;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
