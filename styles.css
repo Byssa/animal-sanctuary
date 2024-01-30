@@ -6,7 +6,7 @@ html {
 /* Body styles */
 body {
   margin: 0;
-  background-color:#ddd;
+  background-color:#d0bba0;
   color: #451b16;
   font-size: 1.2rem;
   font-weight: 600;
@@ -192,7 +192,7 @@ p.custom-about-text {
 
 /* Footer styles */
 .custom-footer {
-  background-color: #ddd;
+  background-color: #d0bba0;
   color: #451b16;
   padding-top: 1rem;
 }
