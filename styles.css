@@ -13,7 +13,7 @@ body {
   font-family: 'Source Sans Pro';
 }
 
-/* HEADER styles */
+/** HEADER styles **/
 /* header background */
 .custom-header-wrapper {
   background: rgb(251,251,251);
@@ -28,7 +28,7 @@ body {
   padding-bottom: 1rem;
 }
 
-/* NAVBAR styles */
+/** NAVBAR styles **/
 /* navbar styles */
 .custom-navbar {
   background-color: #451b16;
@@ -62,7 +62,7 @@ body {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/*CONTENT styles */
+/** CONTENT styles **/
 /* background cloud image */
 .custom-background {
   background-image: url('images/clouds.jpg');
@@ -99,7 +99,7 @@ h2 {
   font-weight: bold;
 }
 
-/*VIDEO styles */
+/** VIDEO styles **/
 /* i-frame Vimeo video */
 .container-iframe {
   position: relative;
@@ -109,8 +109,7 @@ h2 {
   /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
   border-radius: 0.5rem;
 }
-
-/* Responsive style to fit the iframe in the container div with full height and width */
+/* responsive style to fit the iframe in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
   top: 0;
@@ -122,6 +121,7 @@ h2 {
 }
 
 /** CARD styles **/
+/* main card styles */
 .custom-card {
   width: 100%;
   max-width: 300px;
@@ -129,7 +129,7 @@ h2 {
   margin: auto;
   margin-bottom: 1rem;
 }
-
+/* card body styles */
 .custom-card-body {
   position: absolute;
   bottom: 0;
@@ -137,23 +137,23 @@ h2 {
   color: #fbfbfb;
   opacity: 0.7;
 }
-
+/* card title styles */
 .custom-card-title {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
+/* card text styles */
 .custom-card-text {
   font-size: 1rem;
   color: #fbfbfb;
 }
-
+/* card button styles */
 .custom-btn {
   background-color: #451b16;
   color: #fbfbfb;
   border: 2px solid #fbfbfb;
 }
-
+/* card button styles for active and hover */
 .custom.btn:hover,
 .custom.btn:active {
   background-color: #fbfbfb;
@@ -162,7 +162,7 @@ h2 {
   border-color: #fbfbfb;
 }
 
-/*ABOUT styles */
+/** ABOUT styles **/
 /* wraps text around image */
 p.custom-wrap-text {
   text-align: justify;
