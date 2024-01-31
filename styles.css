@@ -30,13 +30,13 @@ h1 {
   padding-bottom: 1rem;
 }
 
-/* Center the Header image */
+/* Header image padding */
 .custom-header {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-/* Navbar styles */
+/* NAVBAR styles */
 .navbar-custom {
   background-color: #451b16;
   font-weight: bold;
@@ -76,7 +76,7 @@ h1 {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* Main area background image */
+/* CONTENT area background image */
 .custom-background {
   background-image: url('images/clouds.jpg');
   background-repeat: no-repeat;
@@ -85,21 +85,12 @@ h1 {
   padding-bottom: 3rem;
 }
 
-/* TEST background for main area background image */
-.custom-background-TEST  {
-  background-image: url('images/clouds.jpg');
-  background-repeat: no-repeat;
-  background-size:contain;
-  background-position:center;
-}
-
 /* Content boxes styles */
 .custom-content  {
   background-color: #fbfbfb;
   border-radius: 1rem;
   padding: 1rem;
 }
-
 
 /*HOME styles */
 /* i-frame Vimeo video */
@@ -200,14 +191,4 @@ img.custom-wrap-img {
   color: #451b16;
   text-align: center;
   margin-top: 2rem;
-}
-
-/* Facebook Follow Us */
-.custom-facebook {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  width: 20%;
 }
