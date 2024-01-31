@@ -6,7 +6,7 @@ html {
 /* Body styles */
 body {
   margin: 0;
-  background-color:#d0bba0;
+  background-color:#fbfbfb;
   color: #451b16;
   font-size: 1.2rem;
   font-weight: 500;
@@ -114,6 +114,7 @@ h2 {
   width: 100%;
   padding-top: 56.25%;
   /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  border-radius: 0.5rem;
 }
 
 /* Responsive style to fit the iframe in the container div with full height and width */
@@ -128,12 +129,9 @@ h2 {
 }
 
 /** Card styles **/
-.animal-cards {
-  gap: 6rem;
-}
-
 .animal-card {
-  margin: 0;
+  margin: auto;
+  margin-bottom: 1rem;
 }
 
 .card {
