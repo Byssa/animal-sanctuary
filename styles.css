@@ -3,7 +3,7 @@ html {
   font-size: 15px;
 }
 
-/* Body styles */
+/* BODY styles */
 body {
   margin: 0;
   background-color:#fbfbfb;
@@ -12,30 +12,9 @@ body {
   font-weight: 500;
   font-family: 'Source Sans Pro';
 }
-/* Text styles */
-h1 {
-  color: green;
-  text-shadow: 1px 1px 2px #451b16;
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-h2 {
-  color: #451b16;
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-/* Link styles in text */
-.in-text-link  {
-  text-decoration: none;
-  color:#451b16;
-  font-weight: bold;
-}
 
 /* HEADER styles */
+/* header background */
 .custom-header-wrapper {
   background: rgb(251,251,251);
   background: radial-gradient(circle, rgba(251,251,251,1) 0%, rgba(208,187,160,1) 100%);
@@ -43,44 +22,37 @@ h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
-/* Header image padding */
+/* header image padding */
 .custom-header {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
 /* NAVBAR styles */
-.navbar-custom {
+/* navbar styles */
+.custom-navbar {
   background-color: #451b16;
+  color: #fbfbfb;
   font-weight: bold;
   font-size: 1.5rem;
 }
-
+/* link styles */
 .nav-link {
   color: #fbfbfb;
 }
-
+/* active link styles */
 .nav-link:active,
 .nav-link:hover {
   color: green;
 }
-
-/* Override bootstrap navbar color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-  color: #fbfbfb;
-}
-
-.custom-toggler.navbar-toggler {
-  border-color: #fbfbfb;
+/* toggler styles */
+.custom-toggler {
   margin: 0.5rem;
   position: relative;
   border: none;
 }
-
-/* Restyle hamburger */
-.custom-toggler .navbar-toggler-icon {
+/* hamburger styles */
+.navbar-toggler-icon {
   position: relative;
   display: inline-block;
   width: 2rem;
@@ -90,7 +62,8 @@ h2 {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 242, 242, 242)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* CONTENT area background cloud image */
+/*CONTENT styles */
+/* background cloud image */
 .custom-background {
   background-image: url('images/clouds.jpg');
   background-repeat: no-repeat;
@@ -98,15 +71,35 @@ h2 {
   padding-top: 2rem;
   padding-bottom: 3rem;
 }
-
-/* Content boxes styles */
+/* box styles */
 .custom-content  {
   background-color: #fbfbfb;
   border-radius: 1rem;
   padding: 1rem;
 }
+/* h1 text styles */
+h1 {
+  color: green;
+  text-shadow: 1px 1px 2px #451b16;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+/* h2 text styles */
+h2 {
+  color: #451b16;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+/* Link styles in text */
+.in-text-link  {
+  text-decoration: none;
+  color:#451b16;
+  font-weight: bold;
+}
 
-/*HOME styles */
+/*VIDEO styles */
 /* i-frame Vimeo video */
 .container-iframe {
   position: relative;
@@ -128,50 +121,41 @@ h2 {
   height: 100%;
 }
 
-/** Card styles **/
-.animal-card {
+/** CARD styles **/
+.custom-card {
+  width: 100%;
+  max-width: 300px;
+  background-color: #451b16;
   margin: auto;
   margin-bottom: 1rem;
 }
 
-.card {
-  width: 100%;
-  max-width: 300px;
-  background-color: #451b16;
-}
-
-.card-img-top {
-  width: 100%;
-  height: auto;
-}
-
-.card-body {
+.custom-card-body {
   position: absolute;
   bottom: 0;
-  padding: 1.5rem;
   background-color: #451b16;
   color: #fbfbfb;
   opacity: 0.7;
 }
 
-.card-title {
+.custom-card-title {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.card-text {
+.custom-card-text {
   font-size: 1rem;
   color: #fbfbfb;
 }
 
-.btn-primary {
+.custom-btn {
   background-color: #451b16;
   color: #fbfbfb;
   border: 2px solid #fbfbfb;
 }
 
-.btn-primary:hover,
-.btn-primary:active {
+.custom.btn:hover,
+.custom.btn:active {
   background-color: #fbfbfb;
   color: #451b16;
   font-weight: bold;
@@ -183,13 +167,11 @@ h2 {
 p.custom-wrap-text {
   text-align: justify;
 }
-
 /* floats image to left, allows text wrap */
 img.custom-wrap-img {
   float: left;
   margin-right: 2rem;
 }
-
 /* for sign-off image */
 .custom-signoff  {
   width: 235px;
