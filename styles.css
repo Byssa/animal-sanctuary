@@ -21,6 +21,13 @@ h1 {
   text-align: center;
 }
 
+/* Link styles in text */
+.in-text-link  {
+  text-decoration: none;
+  color:#451b16;
+  font-weight: bold;
+}
+
 /* HEADER styles */
 .custom-header-wrapper {
   background: rgb(251,251,251);
