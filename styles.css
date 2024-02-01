@@ -39,11 +39,12 @@ body {
 /* link styles */
 .nav-link {
   color: #fbfbfb;
+  text-shadow: 1px 1px 2px green;
 }
 /* active link styles */
 .nav-link:active,
 .nav-link:hover {
-  color: green;
+  color: green; 
 }
 /* toggler styles */
 .custom-toggler {
