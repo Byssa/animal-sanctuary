@@ -77,6 +77,15 @@ body {
   border-radius: 1rem;
   padding: 1rem;
 }
+/* wraps text around image */
+.custom-wrap-text {
+  text-align: justify;
+}
+/* floats image to left, allows text wrap */
+.custom-wrap-img {
+  float: left;
+  margin-right: 2rem;
+}
 /* h1 text styles */
 h1 {
   color: green;
@@ -168,15 +177,6 @@ h2 {
 }
 
 /** ABOUT styles **/
-/* wraps text around image */
-p.custom-wrap-text {
-  text-align: justify;
-}
-/* floats image to left, allows text wrap */
-img.custom-wrap-img {
-  float: left;
-  margin-right: 2rem;
-}
 /* for sign-off image */
 .custom-signoff  {
   width: 235px;
