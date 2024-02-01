@@ -95,7 +95,12 @@ h2 {
 /* Link styles in text */
 .in-text-link  {
   text-decoration: none;
-  color:#451b16;
+  color: green;
+  font-weight: bold;
+}
+.in-text-link-facebook  {
+  text-decoration: none;
+  color: blue;
   font-weight: bold;
 }
 
