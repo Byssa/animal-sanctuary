@@ -136,8 +136,8 @@ h2 {
 }
 
 /** CARD styles **/
-/* main card styles */
-.custom-card {
+/* HOME card styles */
+.custom-card-home {
   width: 100%;
   max-width: 20rem;
   background-color: #451b16;
@@ -146,7 +146,7 @@ h2 {
   margin-bottom: 1rem;
 }
 /* card body styles for home */
-.custom-card-body {
+.custom-card-body-home {
   position: absolute;
   bottom: 0;
   background-color: #451b16;
@@ -154,31 +154,60 @@ h2 {
   opacity: 0.7;
 }
 /* card title styles for home */
-.custom-card-title {
+.custom-card-title-home {
   font-size: 1.5rem;
   font-weight: bold;
 }
+/* card text styles */
+.custom-card-text-home {
+  font-size: 1rem;
+  color: #fbfbfb;
+}
+/* card button styles for home */
+.custom-btn-home {
+  background-color: #451b16;
+  color: #fbfbfb;
+  border: 2px solid #fbfbfb;
+}
+/* card button styles for active and hover home */
+.custom-btn-home:hover,
+.custom-btn-home:active {
+  background-color: #fbfbfb;
+  color: #451b16;
+  font-weight: bold;
+}
+
+/* ANIMALS card styles */
+.custom-card-animals {
+  width: 100%;
+  max-width: 20rem;
+  background-color: #451b16;
+  color: #fbfbfb;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+/* card body styles for animals */
+.custom-card-body-animals {
+  background-color: #fbfbfb;
+  color:#451b16;
+  text-align: center;
+}
 /* card title styles for animals */
-.animal-card-title {
+.custom-card-title-animals {
   font-size: 1.5rem;
   font-weight: bold;
   color:#fbfbfb;
   text-align: center;
 }
-/* card text styles */
-.custom-card-text {
-  font-size: 1rem;
-  color: #fbfbfb;
+/* card button styles for animals */
+.custom-btn-animals {
+  background-color: #fbfbfb;
+  color: #451b16;
+  border: 2px solid #451b16;
 }
-/* card button styles */
-.custom-btn {
-  background-color: #451b16;
-  color: #fbfbfb;
-  border: 2px solid #fbfbfb;
-}
-/* card button styles for active and hover */
-.custom-btn:hover,
-.custom-btn:active {
+/* card button styles for active and hover animals */
+.custom.btn-animals:hover,
+.custom-btn-animals:active {
   background-color: #fbfbfb;
   color: #451b16;
   font-weight: bold;
