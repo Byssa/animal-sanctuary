@@ -179,37 +179,36 @@ h2 {
 
 /* ANIMALS card styles */
 .custom-card-animals {
-  width: 100%;
-  max-width: 20rem;
   background-color: #451b16;
-  color: #fbfbfb;
+  color:#fbfbfb;
+  width: 100%;
+  max-width: 15rem;
   margin: auto;
   margin-bottom: 1rem;
-}
-/* card body styles for animals */
-.custom-card-body-animals {
-  background-color: #fbfbfb;
-  color:#451b16;
   text-align: center;
+  border: 2px solid #451b16;
 }
 /* card title styles for animals */
 .custom-card-title-animals {
   font-size: 1.5rem;
   font-weight: bold;
-  color:#fbfbfb;
-  text-align: center;
 }
 /* card button styles for animals */
 .custom-btn-animals {
   background-color: #fbfbfb;
   color: #451b16;
   border: 2px solid #451b16;
+  font-weight: bold;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
 }
 /* card button styles for active and hover animals */
-.custom.btn-animals:hover,
+.custom-btn-animals:hover,
 .custom-btn-animals:active {
-  background-color: #fbfbfb;
-  color: #451b16;
+  background-color: green;
+  color: #fbfbfb;
+  border: 2px solid #fbfbfb;
   font-weight: bold;
 }
 
