@@ -103,6 +103,12 @@ h2 {
   font-weight: bold;
   text-align: center;
 }
+/* h3 text styles */
+h3  {
+  color: #451b16;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
 /* Link styles in text */
 .in-text-link  {
   text-decoration: none;
@@ -263,18 +269,14 @@ h2 {
   height: 28px;
 }
 
-/** ACCORIDON styles **/
-.custom-accordion-header  {
-  background-color:#fbfbfb;
-  color:#451b16;
-}
-h2.accordion-header > h2.custom-accordion-heading {
-  background-color: red;
-}
-h2.custom-accordion-head  {
-  background-color: #451b16;
-  color: #fbfbfb;
-}
+/** ACCORDION styles **/
+.accordion  {
+--bs-accordion-color: #451b16; 
+--bs-accordion-bg: rgba(0, 128, 0, 0.055); 
+--bs-accordion-border-color: #451b16; 
+--bs-accordion-btn-color: #451b16;
+} 
+
 /* FOOTER styles */
 .custom-footer {
   font-family:Arial, Helvetica, sans-serif;
