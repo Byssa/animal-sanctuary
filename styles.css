@@ -217,7 +217,7 @@ h2 {
 /* SHOP card styles */
 .custom-card-shop {
   width: 100%;
-  max-width: 25rem;
+  max-width: 20rem;
   background-color: #451b16;
   color: #fbfbfb;
   margin: auto;
@@ -263,6 +263,18 @@ h2 {
   height: 28px;
 }
 
+/** ACCORIDON styles **/
+.custom-accordion-header  {
+  background-color:#fbfbfb;
+  color:#451b16;
+}
+h2.accordion-header > h2.custom-accordion-heading {
+  background-color: red;
+}
+h2.custom-accordion-head  {
+  background-color: #451b16;
+  color: #fbfbfb;
+}
 /* FOOTER styles */
 .custom-footer {
   font-family:Arial, Helvetica, sans-serif;
