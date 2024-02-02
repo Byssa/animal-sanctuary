@@ -268,7 +268,8 @@ h4  {
   font-weight: bold;
 }
 
-/* DONATE card styles */
+/** DONATE styles **/
+/* card styles */
 .custom-card-donate {
   background-color: #451b16;
   color:#fbfbfb;
@@ -287,7 +288,23 @@ h4  {
   height: 28px;
 }
 
-/** ACCORDION styles **/
+/** ANIMALS styles **/
+/* card button styles for shop */
+.custom-btn-animals {
+  background-color: #451b16;
+  color: #fbfbfb;
+  border: 2px solid #fbfbfb;
+}
+/* card button styles for active and hover shop */
+.custom-btn-animals:hover,
+.custom-btn-animals:active {
+  background-color: green;
+  color: #fbfbfb;
+  font-weight: bold;
+}
+
+/** FAQ styles **/
+/* accordion */
 .accordion  {
 --bs-accordion-color: #451b16; 
 --bs-accordion-bg: rgba(0, 128, 0, 0.055); 
@@ -295,7 +312,7 @@ h4  {
 --bs-accordion-btn-color: #451b16;
 } 
 
-/* FOOTER styles */
+/** FOOTER styles **/
 .custom-footer {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
