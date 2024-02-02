@@ -152,7 +152,8 @@ h2 {
   bottom: 0;
   background-color: #451b16;
   color: #fbfbfb;
-  opacity: 0.7;
+  opacity: 0.8;
+  border-top-left-radius: 2rem;
 }
 /* card title styles for home */
 .custom-card-title-home {
@@ -173,8 +174,8 @@ h2 {
 /* card button styles for active and hover home */
 .custom-btn-home:hover,
 .custom-btn-home:active {
-  background-color: #fbfbfb;
-  color: #451b16;
+  background-color: green;
+  color: #fbfbfb;
   font-weight: bold;
 }
 
@@ -210,6 +211,48 @@ h2 {
   background-color: green;
   color: #fbfbfb;
   border: 2px solid #fbfbfb;
+  font-weight: bold;
+}
+
+/* SHOP card styles */
+.custom-card-shop {
+  width: 100%;
+  max-width: 25rem;
+  background-color: #451b16;
+  color: #fbfbfb;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+/* card body styles for shop */
+.custom-card-body-shop {
+  position: absolute;
+  bottom: 0;
+  background-color: #451b16;
+  color: #fbfbfb;
+  opacity: 0.8;
+  border-top-left-radius: 2rem;
+}
+/* card title styles for shop */
+.custom-card-title-shop {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* card text styles for*/
+.custom-card-text-shop {
+  font-size: 1rem;
+  color: #fbfbfb;
+}
+/* card button styles for shop */
+.custom-btn-shop {
+  background-color: #451b16;
+  color: #fbfbfb;
+  border: 2px solid #fbfbfb;
+}
+/* card button styles for active and hover shop */
+.custom-btn-shop:hover,
+.custom-btn-shop:active {
+  background-color: green;
+  color: #fbfbfb;
   font-weight: bold;
 }
 
