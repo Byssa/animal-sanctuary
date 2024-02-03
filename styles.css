@@ -204,7 +204,7 @@ h4  {
 .custom-btn-home {
   background-color: #451b16;
   color: #fbfbfb;
-  border: 2px solid #fbfbfb;
+  border: 0.15rem solid #fbfbfb;
 }
 /* card button styles for active and hover home */
 .custom-btn-home:hover,
@@ -224,7 +224,7 @@ h4  {
   margin: auto;
   margin-bottom: 1rem;
   text-align: center;
-  border: 2px solid #451b16;
+  border: 0.15rem solid #451b16;
   box-shadow: 4px 4px 5px rgb(138, 139, 138);
 }
 /* main card style on hover */
@@ -241,18 +241,18 @@ h4  {
 .custom-btn-animals {
   background-color: #fbfbfb;
   color: #451b16;
-  border: 2px solid #451b16;
+  border: 0.15rem solid #451b16;
   font-weight: bold;
   position: absolute;
-  bottom: 2px;
-  right: 2px;
+  bottom: 0.15rem;
+  right: 0.15rem;
 }
 /* card button styles for active and hover animals */
 .custom-btn-animals:hover,
 .custom-btn-animals:active {
   background-color: green;
   color: #fbfbfb;
-  border: 2px solid #fbfbfb;
+  border: 0.15rem solid #fbfbfb;
   font-weight: bold;
 }
 
@@ -294,7 +294,7 @@ h4  {
 .custom-btn-shop {
   background-color: #451b16;
   color: #fbfbfb;
-  border: 2px solid #fbfbfb;
+  border: 0.15rem solid #fbfbfb;
 }
 /* card button styles for active and hover shop */
 .custom-btn-shop:hover,
@@ -304,9 +304,9 @@ h4  {
   font-weight: bold;
 }
 
-/** DONATE styles **/
+/** HELP styles **/
 /* card styles */
-.custom-card-donate {
+.custom-card-help {
   background-color: #451b16;
   color:#fbfbfb;
   width: 100%;
@@ -314,12 +314,12 @@ h4  {
   margin: auto;
   margin-bottom: 1rem;
   text-align: center;
-  border: 2px solid #451b16;
+  border: 0.15rem solid #451b16;
   box-shadow: 4px 4px 5px rgb(138, 139, 138);
 }
 /* main card style on hover */
-.custom-card-donate:hover,
-.custom-card-donate:active  {
+.custom-card-help:hover,
+.custom-card-help:active  {
   transform: scale(1.05);
 }
 
@@ -335,7 +335,7 @@ h4  {
 .custom-btn-animals {
   background-color: #451b16;
   color: #fbfbfb;
-  border: 2px solid #fbfbfb;
+  border: 0.15rem solid #fbfbfb;
 }
 /* card button styles for active and hover shop */
 .custom-btn-animals:hover,
@@ -346,11 +346,31 @@ h4  {
 }
 
 /** DONATE styles **/
-.custom-content-donate  {
-  border: 1px solid #451b16;
-  border-radius: 0.5rem;
-  height: 20rem;
-  padding: 1rem;
+/* card style for donate */
+.custom-card-donate  {
+  color: #451b16;
+  border: 0.15rem solid #451b16;
+  text-align: center;
+  box-shadow: 4px 4px 5px rgb(138, 139, 138);
+}
+/* card header style for donate */
+.custom-card-header-donate  {
+  background-color: rgba(0, 128, 0, 0.095);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  border: 0;
+}
+/* card donate button style for givealittle and paypal */
+.custom-donate-button  {
+  width: 100%; 
+  max-width: 10rem; 
+  height: auto;
+}
+/* card donate button on hover */
+.custom-donate-button:hover,
+.custom-donate-button:active  {
+  transform: scale(1.05);
 }
 
 /** FAQ styles **/
