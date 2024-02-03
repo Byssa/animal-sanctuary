@@ -191,7 +191,8 @@ h4  {
   font-weight: bold;
 }
 
-/* ANIMALS card styles */
+/** ANIMALS card styles **/
+/* main card style */
 .custom-card-animals {
   background-color: #451b16;
   color:#fbfbfb;
@@ -201,6 +202,12 @@ h4  {
   margin-bottom: 1rem;
   text-align: center;
   border: 2px solid #451b16;
+  box-shadow: 4px 4px 5px rgb(138, 139, 138);
+}
+/* main card style on hover */
+.custom-card-animals:hover,
+.custom-card-animals:active  {
+  transform: scale(1.1);
 }
 /* card title styles for animals */
 .custom-card-title-animals {
