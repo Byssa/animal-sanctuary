@@ -345,6 +345,14 @@ h4  {
   font-weight: bold;
 }
 
+/** DONATE styles **/
+.custom-content-donate  {
+  border: 1px solid #451b16;
+  border-radius: 0.5rem;
+  height: 20rem;
+  padding: 1rem;
+}
+
 /** FAQ styles **/
 /* accordion */
 .accordion  {
