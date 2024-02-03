@@ -134,10 +134,18 @@ h4  {
   color: green;
   font-weight: bold;
 }
+.in-text-link:hover,
+.in-text-link:active  {
+  font-size: 1.3rem;
+}
 .in-text-link-facebook  {
   text-decoration: none;
-  color: blue;
+  color: #4267B2;
   font-weight: bold;
+}
+.in-text-link-facebook:hover,
+.in-text-link-facebook:active  {
+  font-size: 1.3rem;
 }
 
 /** VIDEO styles **/
