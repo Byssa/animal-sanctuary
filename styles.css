@@ -372,6 +372,13 @@ h4  {
 .custom-donate-button:active  {
   transform: scale(1.05);
 }
+/* green content box for donate */
+.custom-content-green  {
+  background-color: green;
+  color:#fbfbfb;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
 
 /** FAQ styles **/
 /* accordion */
