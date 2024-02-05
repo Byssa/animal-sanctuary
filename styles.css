@@ -124,6 +124,10 @@ h4  {
   font-weight: bold;
   font-size: 1.2rem;
 }
+/* bold text in green */
+b.custom-b-green  {
+  color: green;
+}
 /* Link styles in text */
 .in-text-link  {
   text-decoration: none;
@@ -422,6 +426,11 @@ h4  {
 --bs-accordion-border-color: #451b16; 
 --bs-accordion-btn-color: #451b16;
 } 
+
+/** FORM styles **/
+.custom-form  {
+  color:#451b16;
+}
 
 /** FOOTER styles **/
 .custom-footer {
