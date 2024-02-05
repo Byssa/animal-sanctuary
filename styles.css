@@ -16,8 +16,7 @@ body {
 /** HEADER styles **/
 /* header background */
 .custom-header-wrapper {
-  background: rgb(251,251,251);
-  background: radial-gradient(circle, rgba(251,251,251,1) 0%, rgba(208,187,160,1) 100%);
+  background: radial-gradient(circle, rgba(231, 243, 255, 0.384) 0%, rgb(161, 209, 249) 100%);
   text-align: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
