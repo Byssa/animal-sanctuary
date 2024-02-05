@@ -423,15 +423,11 @@ h4  {
 --bs-accordion-btn-color: #451b16;
 } 
 
-/** footer styles **/
+/** FOOTER styles **/
 .custom-footer {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
   color: #451b16;
   text-align: center;
   margin-top: 2rem;
-}
-
-hr.custom-hr-white  {
-  color:#fbfbfb;
 }
