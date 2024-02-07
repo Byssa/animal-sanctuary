@@ -446,6 +446,7 @@ b.custom-b-green  {
   color:#fbfbfb;
   padding: 1rem;
   border-radius: 0.5rem;
+  border: 1px solid #451b16;
 }
 
 /** FAQ styles **/
